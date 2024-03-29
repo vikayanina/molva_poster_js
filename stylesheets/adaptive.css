@@ -1,0 +1,16 @@
+@media screen and (max-device-width: 768px) {
+    .first-floor {
+       
+       grid-template-columns:  1fr;
+    }
+    .second-floor {
+        grid-template-columns: 1fr;
+     }
+     .fourth-floor {
+        grid-template-columns: 1fr;
+     }
+     .header__title {
+        font-size: 100px;
+     }
+     
+ } 

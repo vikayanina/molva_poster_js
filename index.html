@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Molva-game</title>
+    <link rel="stylesheet" href="stylesheets/style.css"/>
+</head>
+<body class="display" id="body">
+<header class="header">
+    <!-- <div class="header__bar">
+        <p class="header__bar_archive">АРХИВ СПЛЕТЕН</p>
+        <div class="header__bar_line"></div>
+        <p class="header__bar_molva">МОЛВА</p>
+    </div> -->
+    <div class="header__bar">
+        <div class="header__bar_container">
+            <p>АРХИВ СПЛЕТЕН</p>
+            <div class="header__bar_container_line"></div>
+            <p class="header__bar_container_logo">МОЛВА</p>
+        </div>
+    </div>
+    <h1 class="header__title">СОБЕРИ ВСЕ СПЛЕТНИ</h1>
+    <img class="header__roof" src="./img/roof.png" alt="крыша дома">
+    <div class="header__clouds">
+        <img class="header__clouds_item header__clouds_item1" src="./img/cloud_small.png" alt="облако">
+        <img class="header__clouds_item header__clouds_item3" src="./img/cloud_small.png">
+        <img class="header__clouds_item header__clouds_item4" src="./img/clouds__big.png">
+    </div>
+</header>
+
+<!-- нумерация этажей начинается с верхенго -->
+<main class="main">
+    <section class="first-floor">
+        <div class="facade">
+            <img class="facade__window facade__window_top" src="./img/windowpng.png" alt="окно">
+        </div>
+        <div class="library">
+            <div class="library__bookshelves" data-modal-btn="my_modal2">
+                <svg class="library__bookshelves_top" width="373" height="76" viewBox="0 0 373 76" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect class="library__bookshelves_top_hover" x="1.5" y="1.5" width="370" height="72" fill="white" stroke="black" stroke-width="3"/>
+                    <line x1="48.5" y1="72.1735" x2="48.5" y2="2.71901e-05" stroke="black" stroke-width="3"/>
+                    <line x1="157.5" y1="74.1735" x2="157.5" y2="2.00003" stroke="black" stroke-width="3"/>
+                    <line x1="276.5" y1="74.1733" x2="276.5" y2="1.99991" stroke="black" stroke-width="3"/>
+                    <line x1="293.5" y1="74.1733" x2="293.5" y2="1.99991" stroke="black" stroke-width="3"/>
+                    <line x1="172.5" y1="72.1735" x2="172.5" y2="2.71901e-05" stroke="black" stroke-width="3"/>
+                    <line x1="188.5" y1="72.1735" x2="188.5" y2="2.71901e-05" stroke="black" stroke-width="3"/>
+                    <line x1="205.5" y1="72" x2="205.5" y2="15" stroke="black" stroke-width="3"/>
+                    <line x1="221.5" y1="72" x2="221.5" y2="15" stroke="black" stroke-width="3"/>
+                    <line x1="72.5" y1="72.1735" x2="72.5" y2="2.71901e-05" stroke="black" stroke-width="3"/>
+                    <line x1="88.5" y1="72" x2="88.5" y2="31" stroke="black" stroke-width="3"/>
+                    <line x1="30.5" y1="72.1735" x2="30.5" y2="2.71901e-05" stroke="black" stroke-width="3"/>
+                    <line x1="73" y1="31.5" x2="90" y2="31.5" stroke="black" stroke-width="3"/>
+                    <line x1="189" y1="21.5" x2="206" y2="21.5" stroke="black" stroke-width="3"/>
+                    <line x1="222" y1="28.5" x2="239" y2="28.5" stroke="black" stroke-width="3"/>
+                    <line x1="229" y1="11.5" x2="249" y2="11.5" stroke="black" stroke-width="3"/>
+                    <line x1="338" y1="11.5" x2="370" y2="11.5" stroke="black" stroke-width="3"/>
+                    <line x1="318" y1="23.5" x2="334" y2="23.5" stroke="black" stroke-width="3"/>
+                    <line x1="204" y1="13.5" x2="223" y2="13.5" stroke="black" stroke-width="3"/>
+                    <line x1="32" y1="16.5" x2="49" y2="16.5" stroke="black" stroke-width="3"/>
+                    <line x1="82" y1="12.5" x2="130" y2="12.5" stroke="black" stroke-width="3"/>
+                    <line x1="230.359" y1="12.3661" x2="259.168" y2="74.146" stroke="black" stroke-width="3"/>
+                    <line x1="224.099" y1="29.0061" x2="245.428" y2="74.7449" stroke="black" stroke-width="3"/>
+                    <line x1="247.359" y1="12.3661" x2="276.168" y2="74.146" stroke="black" stroke-width="3"/>
+                    <line x1="96.8614" y1="12.3661" x2="125.67" y2="74.146" stroke="black" stroke-width="3"/>
+                    <line x1="83.3595" y1="12.6051" x2="112.168" y2="74.385" stroke="black" stroke-width="3"/>
+                    <line x1="112.359" y1="12.6051" x2="141.168" y2="74.385" stroke="black" stroke-width="3"/>
+                    <line x1="127.697" y1="12.2065" x2="156.604" y2="74.1982" stroke="black" stroke-width="3"/>
+                    <line y1="-1.5" x2="68.1666" y2="-1.5" transform="matrix(-0.422618 0.906308 0.906308 0.422618 357.08 12)" stroke="black" stroke-width="3"/>
+                    <line y1="-1.5" x2="68.1666" y2="-1.5" transform="matrix(-0.422618 0.906308 0.906308 0.422618 370.582 12.239)" stroke="black" stroke-width="3"/>
+                    <line y1="-1.5" x2="68.1666" y2="-1.5" transform="matrix(-0.422618 0.906308 0.906308 0.422618 341.582 12.239)" stroke="black" stroke-width="3"/>
+                    <line y1="-1.5" x2="55.2649" y2="-1.5" transform="matrix(-0.422618 0.906308 0.906308 0.422618 320.356 23)" stroke="black" stroke-width="3"/>
+                    </svg>
+            <svg class="library__bookshelves_bottom" width="373" height="75" viewBox="0 0 373 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect class="library__bookshelves_bottom_hover" x="1.5" y="1.50345" width="370" height="72" fill="white" stroke="black" stroke-width="3"/>
+                <line x1="14.8614" y1="11.1305" x2="43.6699" y2="72.9104" stroke="black" stroke-width="3"/>
+                <line x1="1.35946" y1="11.3695" x2="30.1679" y2="73.1495" stroke="black" stroke-width="3"/>
+                <line x1="30.3595" y1="11.3695" x2="59.1679" y2="73.1495" stroke="black" stroke-width="3"/>
+                <line x1="51.5858" y1="22.716" x2="74.9417" y2="72.803" stroke="black" stroke-width="3"/>
+                <line x1="75" y1="72.1734" x2="75" y2="-3.32752e-06" stroke="black" stroke-width="3"/>
+                <line x1="92.5" y1="72.1769" x2="92.5" y2="0.00347568" stroke="black" stroke-width="3"/>
+                <line x1="188.5" y1="74.1769" x2="188.5" y2="2.00348" stroke="black" stroke-width="3"/>
+                <line x1="202.5" y1="72.1769" x2="202.5" y2="0.00347568" stroke="black" stroke-width="3"/>
+                <line x1="211.5" y1="72.1769" x2="211.5" y2="0.00347568" stroke="black" stroke-width="3"/>
+                <line x1="229.5" y1="72.1769" x2="229.5" y2="0.00347568" stroke="black" stroke-width="3"/>
+                <line x1="245.5" y1="72.1769" x2="245.5" y2="0.00347568" stroke="black" stroke-width="3"/>
+                <line x1="262.5" y1="72.1769" x2="262.5" y2="0.00347568" stroke="black" stroke-width="3"/>
+                <line x1="342" y1="74.1821" x2="342" y2="26.9982" stroke="black" stroke-width="3"/>
+                <line x1="357.5" y1="73.1769" x2="357.5" y2="1.00348" stroke="black" stroke-width="3"/>
+                <line x1="280.5" y1="72.1769" x2="280.5" y2="0.00347568" stroke="black" stroke-width="3"/>
+                <line x1="115.5" y1="72.1769" x2="115.5" y2="0.00347568" stroke="black" stroke-width="3"/>
+                <line x1="128.5" y1="74.1864" x2="128.5" y2="22.0034" stroke="black" stroke-width="3"/>
+                <line x1="115" y1="22.5034" x2="130" y2="22.5034" stroke="black" stroke-width="3"/>
+                <line y1="11.5034" x2="33" y2="11.5034" stroke="black" stroke-width="3"/>
+                <line x1="36" y1="23.5034" x2="53" y2="23.5034" stroke="black" stroke-width="3"/>
+                <line x1="158" y1="11.5034" x2="190" y2="11.5034" stroke="black" stroke-width="3"/>
+                <line y1="-1.5" x2="68.1666" y2="-1.5" transform="matrix(0.422618 -0.906308 -0.906308 -0.422618 144 72.7834)" stroke="black" stroke-width="3"/>
+                <line y1="-1.5" x2="68.1666" y2="-1.5" transform="matrix(0.422618 -0.906308 -0.906308 -0.422618 157 72.7834)" stroke="black" stroke-width="3"/>
+                <line y1="-1.5" x2="68.1666" y2="-1.5" transform="matrix(0.422618 -0.906308 -0.906308 -0.422618 129 71.7834)" stroke="black" stroke-width="3"/>
+                <line x1="247" y1="14.5034" x2="262" y2="14.5034" stroke="black" stroke-width="3"/>
+                <line x1="203" y1="39.5034" x2="211" y2="39.5034" stroke="black" stroke-width="3"/>
+                <line x1="343" y1="28.5034" x2="357" y2="28.5034" stroke="black" stroke-width="3"/>
+                <line x1="295.861" y1="10.3695" x2="324.67" y2="72.1495" stroke="black" stroke-width="3"/>
+                <line x1="282.359" y1="10.6085" x2="311.168" y2="72.3885" stroke="black" stroke-width="3"/>
+                <line x1="312.359" y1="10.3695" x2="341.168" y2="72.1495" stroke="black" stroke-width="3"/>
+                <line x1="281" y1="10.5034" x2="314" y2="10.5034" stroke="black" stroke-width="3"/>
+                </svg>
+        </div>
+        <div data-modal-window="my_modal2" class="modal">
+            <div class="modal_content">
+                <div class="modal_inner">
+                    <p class="modal_title">КНИГИ</p>
+                    <div class="close_modal_window">&#x2717</div>
+                </div>
+                <p>Полное собрание сочинений сплетен. Какая ценная находка!</p>
+            </div>
+        </div>
+
+            <div class="library__container">
+                <svg class="library__plant" width="194" height="252" viewBox="0 0 194 252" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M56.8521 250.5L46.664 152.5H148.336L138.148 250.5H56.8521Z" fill="white" stroke="black" stroke-width="3"/>
+                    <path d="M66.3904 87.7506C78.4339 94.8691 86.6649 105.966 91.8996 115.368C94.5113 120.059 96.3619 124.3 97.5583 127.365C98.0953 128.74 98.4998 129.877 98.7817 130.709C97.9167 130.864 96.7255 131.058 95.2615 131.25C91.9997 131.68 87.3918 132.104 82.0232 132.077C71.2626 132.025 57.5718 130.165 45.5283 123.046C33.4848 115.928 25.2538 104.83 20.0191 95.4286C17.4074 90.7381 15.5567 86.4969 14.3604 83.4321C13.8234 82.0565 13.4188 80.9196 13.137 80.0873C14.002 79.933 15.1931 79.7391 16.6572 79.5463C19.919 79.1166 24.5269 78.6929 29.8955 78.7193C40.656 78.772 54.3469 80.632 66.3904 87.7506Z" fill="white" stroke="black" stroke-width="3"/>
+                    <path d="M152.156 93.6968C141.248 102.456 127.961 106.245 117.317 107.828C112.007 108.618 107.385 108.854 104.096 108.893C102.619 108.91 101.412 108.888 100.534 108.858C100.695 107.994 100.934 106.811 101.269 105.373C102.018 102.17 103.246 97.7082 105.164 92.6938C109.008 82.6431 115.576 70.4877 126.485 61.7282C137.393 52.9687 150.68 49.1799 161.323 47.5968C166.634 46.807 171.255 46.5708 174.545 46.5321C176.021 46.5147 177.228 46.5371 178.106 46.5668C177.945 47.4307 177.707 48.6136 177.371 50.0516C176.623 53.2554 175.394 57.7167 173.477 62.7311C169.633 72.7818 163.064 84.9373 152.156 93.6968Z" fill="white" stroke="black" stroke-width="3"/>
+                    <path d="M112.804 31.696C112.413 39.7538 108.963 46.9656 105.543 52.215C103.84 54.8299 102.161 56.9317 100.91 58.3768C100.582 58.7567 100.283 59.0907 100.022 59.3763C99.7893 59.0668 99.5244 58.7054 99.234 58.2955C98.1294 56.7362 96.6618 54.4817 95.2194 51.7142C92.3238 46.1584 89.588 38.6466 89.9788 30.5888C90.3697 22.531 93.8198 15.3193 97.2395 10.0699C98.943 7.455 100.622 5.35315 101.872 3.90801C102.201 3.52815 102.5 3.19412 102.761 2.90852C102.993 3.21806 103.258 3.57944 103.549 3.98932C104.653 5.5487 106.121 7.80319 107.563 10.5707C110.459 16.1264 113.195 23.6382 112.804 31.696Z" fill="white" stroke="black" stroke-width="3"/>
+                    <line x1="99.5" y1="58" x2="99.5" y2="153" stroke="black" stroke-width="3"/>
+                    </svg>
+                    <div data-modal-btn="my_modal1">
+                <svg class="library__tv" width="167" height="219" viewBox="0 0 167 219" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M165 217.505L156.002 159.401H134.148L159.601 217.505H165Z" fill="white" stroke="black" stroke-width="3"/>
+                <path d="M2 217.505L10.9984 159.401H32.8517L7.39905 217.505H2Z" fill="white" stroke="black" stroke-width="3"/>
+                <rect x="3.5" y="48.2917" width="160" height="113.208" fill="white" stroke="black" stroke-width="3"/> 
+                <rect class="library__tv_screen" x="14.5" y="60.5" width="137" height="88.5268" fill="white" stroke="black" stroke-width="3"/>
+                <line x1="83.2108" y1="46.9624" x2="123.521" y2="6.65229" stroke="black" stroke-width="3"/>
+                <line x1="44.1964" y1="6.65223" x2="84.5065" y2="46.9623" stroke="black" stroke-width="3"/>
+                <circle class="library__tv_antenna" cx="43.1358" cy="7.71293" r="6.21293" fill="none" stroke="black" stroke-width="3"/>
+                <circle class="library__tv_antenna" cx="124.379" cy="7.71287" r="6.21293" fill="white" stroke="black" stroke-width="3"/>
+                <line x1="29.5" y1="150.031" x2="29.5" y2="59" stroke="black" stroke-width="3"/>
+                <line x1="50.5" y1="150.031" x2="50.5" y2="59" stroke="black" stroke-width="3"/>
+                <line x1="71.5" y1="150.031" x2="71.5" y2="59" stroke="black" stroke-width="3"/>
+                <line x1="92.5" y1="150.031" x2="92.5" y2="59" stroke="black" stroke-width="3"/>
+                <line x1="113.5" y1="150.031" x2="113.5" y2="59" stroke="black" stroke-width="3"/>
+                <line x1="134.5" y1="150.031" x2="134.5" y2="59" stroke="black" stroke-width="3"/>
+                </svg> 
+            </div>
+            <div data-modal-window="my_modal1" class="modal">
+                <div class="modal_content">
+                    <div class="modal_inner">
+                        <p class="modal_title">ТЕЛЕВИЗОР</p>
+                        <div class="close_modal_window">&#x2717</div>
+                    </div>
+                    <p>Пшш-ш-ш а теперь в передаче светская хроника. Скандалы, интриги, расследования. Самые свежие сплетни про знаменитостей сразу после рекламы.
+                        Не переключайтесь.</p>
+                </div>
+            </div>
+            </div>
+        </div>
+
+
+        <div class="livingroom">
+            <div class="livingroom__container">
+                <svg class="livingroom__painting" data-modal-btn="my_modal10"  width="120" height="141" viewBox="0 0 120 141" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="1.5" y="22.5" width="117" height="117" fill="white" stroke="black" stroke-width="3"/>
+                    <rect class="livingroom__painting_paper" x="12.5" y="32.5" width="97" height="97" fill="white" stroke="black" stroke-width="3"/>
+                    <line x1="39.9393" y1="23.163" x2="60.1631" y2="2.93923" stroke="black" stroke-width="3"/>
+                    <line x1="59.0607" y1="1.93934" x2="79.2844" y2="22.1631" stroke="black" stroke-width="3"/>
+                    </svg>
+                    <div data-modal-window="my_modal10" class="modal">
+                        <div class="modal_content">
+                            <div class="modal_inner">
+                                <p class="modal_title">ФОТОГРАФИЯ</p>
+                                <div class="close_modal_window">&#x2717</div>
+                            </div>
+                            <p>фотография видно что старая, но она порвана и невозможно разобрать кто на ней запечатлен</p>
+                            <div class="puzzle">
+                                <div class="row">
+                                  <div class="col"></div>
+                                  <div class="col"></div>
+                                  <div class="col"></div>
+                                </div>
+                                <div class="row">
+                                  <div class="col"></div>
+                                  <div class="col"></div>
+                                  <div class="col"></div>
+                                </div>
+                                <div class="row">
+                                  <div class="col"></div>
+                                  <div class="col"></div>
+                                  <div class="col"></div>
+                                </div>
+                              </div>
+                              <div class="images">
+                       
+      <img class="images_part" id="slice_0_1" draggable="true" src="./img/slice_0_1.jpg.jpg">
+      <img class="images_part" id="slice_0_2" draggable="true" src="./img/slice_0_2.jpg">
+      <img class="images_part" id="slice_0_3" draggable="true" src="./img/slice_0_3.jpg">
+      <img class="images_part" id="slice_1_0" draggable="true" src="./img/slice_0_4.jpg">
+      <img class="images_part" id="slice_1_1" draggable="true" src="./img/slice_0_5.jpg">
+      <img class="images_part" id="slice_1_2" draggable="true" src="./img/slice_0_6.jpg">
+      <img class="images_part" id="slice_1_3" draggable="true" src="./img/slice_0_7.jpg">
+      <img class="images_part" id="slice_2_0" draggable="true" src="./img/slice_0_8.jpg">
+      <img class="images_part" id="slice_2_1" draggable="true" src="./img/slice_0_9.jpg">
+                              </div>
+                            </div>
+                        </div>
+                   
+                  
+                    
+                <img class="livingroom__armchair" src="./img/armchair.png" alt="кресло">
+            </div>
+            <img class="livingroom__window" src="./img/windowpng.png" alt="окно">
+        </div>
+    </section>
+
+    <section class="second-floor">
+        <div class="kitchen">
+            <svg data-modal-btn="my_modal4" class="kitchen__set" width="602" height="361" viewBox="0 0 602 361" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <mask id="path-1-inside-1_98_1001" fill="white">
+                <path d="M223 184H364V361H223V184Z"/>
+                </mask>
+                <path d="M223 184H364V361H223V184Z" fill="white"/>
+                <path d="M364 184H367V181H364V184ZM364 361V364H367V361H364ZM223 187H364V181H223V187ZM361 184V361H367V184H361ZM364 358H223V364H364V358Z" fill="black" mask="url(#path-1-inside-1_98_1001)"/>
+                <rect x="-1.5" y="1.5" width="118" height="20" transform="matrix(-1 0 0 1 351 258)" fill="white" stroke="black" stroke-width="3"/>
+                <rect x="-1.5" y="1.5" width="118" height="52" transform="matrix(-1 0 0 1 351 287)" fill="white" stroke="black" stroke-width="3"/>
+                <rect x="-1.5" y="1.5" width="44" height="52" transform="matrix(-1 0 0 1 320 276)" fill="white" stroke="black" stroke-width="3"/>
+                <rect x="-1.5" y="1.5" width="14" height="32" transform="matrix(-1 0 0 1 276 287)" fill="white" stroke="black" stroke-width="3"/>
+                <circle cx="347.5" cy="248.5" r="5" fill="white" stroke="black" stroke-width="3"/>
+                <line x1="226" y1="237.5" x2="364" y2="237.5" stroke="black" stroke-width="3"/>
+                <circle cx="240.5" cy="248.5" r="5" fill="white" stroke="black" stroke-width="3"/>
+                <circle cx="255.5" cy="248.5" r="5" fill="white" stroke="black" stroke-width="3"/>
+                <circle cx="270.5" cy="248.5" r="5" fill="white" stroke="black" stroke-width="3"/>
+                <circle cx="285.5" cy="248.5" r="5" fill="white" stroke="black" stroke-width="3"/>
+                <rect x="1.5" y="185.5" width="223" height="174" fill="white" stroke="black" stroke-width="3"/>
+                <rect x="1.5" y="185.5" width="223" height="52" fill="white" stroke="black" stroke-width="3"/>
+                <rect x="121.5" y="237.5" width="103" height="122" fill="white" stroke="black" stroke-width="3"/>
+                <line x1="131.5" y1="276" x2="131.5" y2="246" stroke="black" stroke-width="3"/>
+                <rect x="1.5" y="277.5" width="120" height="40" fill="white" stroke="black" stroke-width="3"/>
+                <line x1="47" y1="287.5" x2="77.5" y2="287.5" stroke="black" stroke-width="3"/>
+                <path d="M288.5 199C288.5 199.562 288.145 200.357 286.892 201.309C285.663 202.243 283.789 203.149 281.34 203.936C276.458 205.505 269.62 206.5 262 206.5C254.38 206.5 247.542 205.505 242.66 203.936C240.211 203.149 238.337 202.243 237.108 201.309C235.855 200.357 235.5 199.562 235.5 199C235.5 198.438 235.855 197.643 237.108 196.691C238.337 195.757 240.211 194.851 242.66 194.064C247.542 192.495 254.38 191.5 262 191.5C269.62 191.5 276.458 192.495 281.34 194.064C283.789 194.851 285.663 195.757 286.892 196.691C288.145 197.643 288.5 198.438 288.5 199Z" fill="white" stroke="black" stroke-width="3"/>
+                <path d="M352.5 199C352.5 199.562 352.145 200.357 350.892 201.309C349.663 202.243 347.789 203.149 345.34 203.936C340.458 205.505 333.62 206.5 326 206.5C318.38 206.5 311.542 205.505 306.66 203.936C304.211 203.149 302.337 202.243 301.108 201.309C299.855 200.357 299.5 199.562 299.5 199C299.5 198.438 299.855 197.643 301.108 196.691C302.337 195.757 304.211 194.851 306.66 194.064C311.542 192.495 318.38 191.5 326 191.5C333.62 191.5 340.458 192.495 345.34 194.064C347.789 194.851 349.663 195.757 350.892 196.691C352.145 197.643 352.5 198.438 352.5 199Z" fill="white" stroke="black" stroke-width="3"/>
+                <path d="M288.5 221C288.5 221.562 288.145 222.357 286.892 223.309C285.663 224.243 283.789 225.149 281.34 225.936C276.458 227.505 269.62 228.5 262 228.5C254.38 228.5 247.542 227.505 242.66 225.936C240.211 225.149 238.337 224.243 237.108 223.309C235.855 222.357 235.5 221.562 235.5 221C235.5 220.438 235.855 219.643 237.108 218.691C238.337 217.757 240.211 216.851 242.66 216.064C247.542 214.495 254.38 213.5 262 213.5C269.62 213.5 276.458 214.495 281.34 216.064C283.789 216.851 285.663 217.757 286.892 218.691C288.145 219.643 288.5 220.438 288.5 221Z" fill="white" stroke="black" stroke-width="3"/>
+                <path d="M352.5 221C352.5 221.562 352.145 222.357 350.892 223.309C349.663 224.243 347.789 225.149 345.34 225.936C340.458 227.505 333.62 228.5 326 228.5C318.38 228.5 311.542 227.505 306.66 225.936C304.211 225.149 302.337 224.243 301.108 223.309C299.855 222.357 299.5 221.562 299.5 221C299.5 220.438 299.855 219.643 301.108 218.691C302.337 217.757 304.211 216.851 306.66 216.064C311.542 214.495 318.38 213.5 326 213.5C333.62 213.5 340.458 214.495 345.34 216.064C347.789 216.851 349.663 217.757 350.892 218.691C352.145 219.643 352.5 220.438 352.5 221Z" fill="white" stroke="black" stroke-width="3"/>
+                <rect x="394.5" y="1.5" width="206" height="358" rx="20.5" fill="white" stroke="black" stroke-width="3"/>
+                <line x1="394.999" y1="91" x2="602.001" y2="91" stroke="black" stroke-width="3"/>
+                <rect class="kitchen__sticker" x="432.909" y="142.012" width="43" height="48" transform="rotate(-19.1454 432.909 142.012)" fill="white" stroke="black" stroke-width="3"/>
+                <rect class="kitchen__sticker" x="514.365" y="189.861" width="30.2478" height="33.8617" transform="rotate(16.3005 514.365 189.861)" fill="white" stroke="black" stroke-width="3"/>
+                <rect class="kitchen__sticker" x="527.809" y="176.861" width="11.4637" height="24.7557" transform="rotate(16.3005 527.809 176.861)" fill="white" stroke="black" stroke-width="3"/>
+                <rect class="kitchen__sticker" x="508.5" y="113.5" width="53" height="34" fill="white" stroke="black" stroke-width="3"/>
+                <circle cx="535" cy="112" r="8.5" fill="white"/>
+                <circle cx="535" cy="112" r="8.5" fill="white"/>
+                <circle cx="535" cy="112" r="8.5" fill="white"/>
+                <circle cx="535" cy="112" r="8.5" stroke="black" stroke-width="3"/>
+                <mask id="path-30-inside-2_98_1001" fill="white">
+                <path d="M393 138C398.909 138 404.761 136.836 410.221 134.575C415.68 132.313 420.641 128.998 424.82 124.82C428.998 120.641 432.313 115.68 434.575 110.221C436.836 104.761 438 98.9095 438 93C438 87.0905 436.836 81.2389 434.575 75.7792C432.313 70.3196 428.998 65.3588 424.82 61.1802C420.641 57.0016 415.68 53.6869 410.221 51.4254C404.761 49.164 398.909 48 393 48L393 93V138Z"/>
+                </mask>
+                <path d="M393 138C398.909 138 404.761 136.836 410.221 134.575C415.68 132.313 420.641 128.998 424.82 124.82C428.998 120.641 432.313 115.68 434.575 110.221C436.836 104.761 438 98.9095 438 93C438 87.0905 436.836 81.2389 434.575 75.7792C432.313 70.3196 428.998 65.3588 424.82 61.1802C420.641 57.0016 415.68 53.6869 410.221 51.4254C404.761 49.164 398.909 48 393 48L393 93V138Z" stroke="black" stroke-width="6" mask="url(#path-30-inside-2_98_1001)"/>
+                <path d="M457.127 123.483L458.31 148.012L439.508 132.214L457.127 123.483Z" fill="white" stroke="black" stroke-width="3"/>
+                </svg>
+                <div data-modal-window="my_modal4" class="modal modal__kitchen_set">
+                    <div class="modal_content">
+                        <div class="modal_inner">
+                            <p class="modal_title">ЗАПИСКА</p>
+                            <div class="close_modal_window">&#x2717</div>
+                        </div>
+                        <p>Я ушла на встречу. Буду поздно. 
+                            Не забудь поговорить с нашими 
+                            соседями, они опять сверлили 
+                            всю ночь! Это уже свинство!</p>
+                        <div class="drawing-area">
+                            <div id="indicator" class="isWrite"></div>
+                            <canvas id="canvas"></canvas> 
+                        </div>  
+                    </div>
+                </div>
+        </div>
+        <div class="diningroom">
+            <svg data-modal-btn="my_modal5" class="diningroom__flags" width="512" height="164" viewBox="0 0 512 164" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+                <path d="M108.248 60.9857L45.318 105.393L52.3103 28.6898L108.248 60.9857Z" stroke="black" stroke-width="3"/>
+                <path d="M194.849 85.5396L150.902 148.792L131.238 74.3233L194.849 85.5396Z" stroke="black" stroke-width="3"/>
+                <path d="M290.184 90.3881L257.888 160.311L225.592 90.3881L290.184 90.3881Z" stroke="black" stroke-width="3"/>
+                <path d="M384.687 74.3232L365.024 148.792L321.077 85.5395L384.687 74.3232Z" stroke="black" stroke-width="3"/>
+                <path d="M460.748 28.6898L467.741 105.393L404.81 60.9857L460.748 28.6898Z" stroke="black" stroke-width="3"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M285.568 103.96C299.878 102.87 314.059 100.938 328.042 98.1923L329.832 100.769C314.818 103.77 299.576 105.84 284.189 106.945L285.568 103.96ZM383.2 85.8315L384.095 82.4413C394.403 78.6325 404.535 74.3583 414.461 69.6313L417.152 71.5304C406.079 76.8638 394.747 81.6367 383.2 85.8315ZM463.718 44.7371C479.794 33.8469 495.074 21.6342 509.386 8.16697C510.114 7.48196 510.839 6.79371 511.562 6.10221L509.575 4.0244C495.143 17.8278 479.698 30.3311 463.419 41.4623L463.718 44.7371ZM230.209 103.96C215.941 102.873 201.804 100.949 187.867 98.2182L186.076 100.795C201.044 103.782 216.242 105.843 231.587 106.945L230.209 103.96ZM131.847 82.5026L132.742 85.8916C120.575 81.4782 108.649 76.4238 97.0137 70.7495L99.6976 68.8556C110.191 73.9166 120.92 78.4708 131.847 82.5026ZM49.8007 39.6981C33.0853 28.0577 17.2729 14.9625 2.56251 0.494751L0.546387 2.54469C1.25965 3.24616 1.97547 3.94448 2.69386 4.63957C17.3047 18.7766 32.9696 31.5855 49.5007 42.9885L49.8007 39.6981Z" fill="black"/>
+                </svg>
+                <img class="diningroom__table" src="./img/table.png" alt="обеденный стол">
+
+        <div data-modal-window="my_modal5" class="modal">
+            <div class="modal_content">
+                <div class="modal_inner">
+                    <p class="modal_title">ФЛАЖКИ</p>
+                    <div class="close_modal_window">&#x2717</div>
+                </div>
+                <p>кажется, здесь недавно была вечеринка...и не пригласили...значит опять меня обсуждали!</p>
+            </div>
+        </div>
+        </div>
+
+        <div class="office">
+                <svg class="office__boxes" data-modal-btn="my_modal14" width="499" height="142" viewBox="0 0 499 142" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="1.5" y="121.5" width="496" height="19" fill="white" stroke="black" stroke-width="3"/>
+                    <rect x="69.5" y="35.5" width="37" height="57" rx="18.5" fill="white" stroke="black" stroke-width="3"/>
+                    <line x1="68.6862" y1="34.3991" x2="80.2564" y2="48.1879" stroke="black" stroke-width="3"/>
+                    <line y1="-1.5" x2="18" y2="-1.5" transform="matrix(-0.642788 0.766044 0.766044 0.642788 109.57 35)" stroke="black" stroke-width="3"/>
+                    <line x1="88.5" y1="45" x2="88.5" y2="27" stroke="black" stroke-width="3"/>
+                    <path d="M66.8524 121.5L61.6637 71.5H113.336L108.148 121.5H66.8524Z" fill="white" stroke="black" stroke-width="3"/>
+                    <rect x="321.064" y="68.6613" width="94.871" height="52.5" fill="white" stroke="black" stroke-width="3"/>
+                    <rect x="314.5" y="61.5" width="108" height="11.3226" fill="white" stroke="black" stroke-width="3"/>
+                    <rect x="355.081" y="73.0323" width="24.4516" height="11.3226" fill="white" stroke="black" stroke-width="3"/>
+                    <rect class="office__boxes_hover"  x="136.5" y="40.5" width="161" height="81" fill="white" stroke="black" stroke-width="3"/>
+                    <rect x="125.5" y="19.5" width="183" height="21" fill="white" stroke="black" stroke-width="3"/>
+                    <rect x="193.5" y="40.5" width="43" height="21" stroke="black" stroke-width="3"/>
+                    <rect x="350.5" y="12.5" width="94" height="49" fill="white" stroke="black" stroke-width="3"/>
+                    <rect x="343.5" y="1.5" width="108" height="11" stroke="black" stroke-width="3"/>
+                    <rect x="384.081" y="13.0323" width="24.4516" height="11.3226" stroke="black" stroke-width="3"/>
+                    </svg>
+                    <div data-modal-window="my_modal14" class="modal">
+                        <div class="modal_content">
+                            <div class="modal_inner">
+                                <p class="modal_title">КОРОБКИ</p>
+                                <div class="close_modal_window">&#x2717</div>
+                            </div>
+                            <p>личный дневник со всеми сплетнями про одноклассников! это нам точно пригодится</p>
+                        </div>
+                    </div>
+
+            <svg data-modal-btn="my_modal6" class="office__desk" width="345" height="281" viewBox="0 0 345 281" fill="white" xmlns="http://www.w3.org/2000/svg">
+                <rect x="1.5" y="107.5" width="342" height="86" fill="white" stroke="black" stroke-width="3"/>
+                <rect x="17.5" y="193.5" width="24" height="86" fill="white" stroke="black" stroke-width="3"/>
+                <rect x="229.5" y="193.5" width="107" height="86" fill="white" stroke="black" stroke-width="3"/>
+                <circle cx="282.5" cy="212.5" r="5" fill="white" stroke="black" stroke-width="3"/>
+                <circle cx="282.5" cy="258.5" r="5" fill="white" stroke="black" stroke-width="3"/>
+                <line x1="230" y1="235.5" x2="338.005" y2="235.5" stroke="black" stroke-width="3"/>
+                <mask id="path-7-inside-1_2214_74" fill="white">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M146 85H106V115H93V135H158V115H146V85Z"/>
+                </mask>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M146 85H106V115H93V135H158V115H146V85Z" fill="white"/>
+                <path d="M106 85V82H103V85H106ZM146 85H149V82H146V85ZM106 115V118H109V115H106ZM93 115V112H90V115H93ZM93 135H90V138H93V135ZM158 135V138H161V135H158ZM158 115H161V112H158V115ZM146 115H143V118H146V115ZM106 88H146V82H106V88ZM109 115V85H103V115H109ZM93 118H106V112H93V118ZM96 135V115H90V135H96ZM158 132H93V138H158V132ZM155 115V135H161V115H155ZM146 118H158V112H146V118ZM143 85V115H149V85H143Z" fill="black" mask="url(#path-7-inside-1_2214_74)"/>
+                <rect x="58.5" y="1.5" width="134" height="98" rx="25.5" fill="white" stroke="black" stroke-width="3"/>
+                <rect class="office__comp" x="68.5" y="9.5" width="113" height="82" rx="19.5" fill="white" stroke="black" stroke-width="3"/>
+                <rect x="198.5" y="140.5" width="21" height="28" rx="10.5" fill="white" stroke="black" stroke-width="3"/>
+                <path d="M157 120.087C169.051 118.426 194.737 117.429 201.076 126.735C207.415 136.041 209 146.122 209 150" stroke="black" stroke-width="3"/>
+                <rect x="77.5" y="142.5" width="97" height="37" fill="white" stroke="black" stroke-width="3"/>
+                <line x1="90.5" y1="143" x2="90.5" y2="178" stroke="black" stroke-width="3"/>
+                <line x1="90.5" y1="143" x2="90.5" y2="178" stroke="black" stroke-width="3"/>
+                <line x1="90.5" y1="143" x2="90.5" y2="178" stroke="black" stroke-width="3"/>
+                <line x1="104.5" y1="143" x2="104.5" y2="178" stroke="black" stroke-width="3"/>
+                <line x1="104.5" y1="143" x2="104.5" y2="178" stroke="black" stroke-width="3"/>
+                <line x1="104.5" y1="143" x2="104.5" y2="178" stroke="black" stroke-width="3"/>
+                <line x1="118.5" y1="143" x2="118.5" y2="178" stroke="black" stroke-width="3"/>
+                <line x1="118.5" y1="143" x2="118.5" y2="178" stroke="black" stroke-width="3"/>
+                <line x1="118.5" y1="143" x2="118.5" y2="178" stroke="black" stroke-width="3"/>
+                <line x1="132.5" y1="143" x2="132.5" y2="178" stroke="black" stroke-width="3"/>
+                <line x1="132.5" y1="143" x2="132.5" y2="178" stroke="black" stroke-width="3"/>
+                <line x1="132.5" y1="143" x2="132.5" y2="178" stroke="black" stroke-width="3"/>
+                <line x1="146.5" y1="143" x2="146.5" y2="178" stroke="black" stroke-width="3"/>
+                <line x1="146.5" y1="143" x2="146.5" y2="178" stroke="black" stroke-width="3"/>
+                <line x1="146.5" y1="143" x2="146.5" y2="178" stroke="black" stroke-width="3"/>
+                <line x1="160.5" y1="143" x2="160.5" y2="178" stroke="black" stroke-width="3"/>
+                <line x1="160.5" y1="143" x2="160.5" y2="178" stroke="black" stroke-width="3"/>
+                <line x1="160.5" y1="143" x2="160.5" y2="178" stroke="black" stroke-width="3"/>
+                <line x1="78" y1="155.5" x2="175" y2="155.5" stroke="black" stroke-width="3"/>
+                <line x1="78" y1="168.5" x2="175" y2="168.5" stroke="black" stroke-width="3"/>
+                </svg>
+                <div data-modal-window="my_modal6" class="modal">
+                    <div class="modal_content">
+                        <div class="modal_inner">
+                            <p class="modal_title">КОМПЬЮТЕР</p>
+                            <div class="close_modal_window">&#x2717</div>
+                        </div>
+                        <p>Чат для сплетен. *У вас новое сообщение*. Katenka__2008: «Вы видели в каком платье Наташа вчера пришла на дискотеку? 
+                            Это такой кринж мда... »</p>
+                        <p>Ответить</p>
+                        <div class="text_block"><input type="text"name="kye" size="100" maxlength="15"></div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <section class="fourth-floor">
+        <div class="facade"><img class="facade__window facade__window_cat" src="./img/windowpng.png"> </div>
+        <div class="enter">
+            <div class="enter__info"> <svg data-modal-btn="my_modal7" class="enter__info_item" width="207" height="178" viewBox="0 0 207 178" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="1.5" y="1.5" width="204" height="175" fill="white" stroke="black" stroke-width="3"/>
+                <line x1="61.5" y1="10" x2="61.5" y2="30" stroke="black" stroke-width="3"/>
+                <line x1="76.5" y1="10" x2="76.5" y2="30" stroke="black" stroke-width="3"/>
+                <line x1="82.5" y1="10" x2="82.5" y2="30" stroke="black" stroke-width="3"/>
+                <line x1="97.5" y1="10" x2="97.5" y2="30" stroke="black" stroke-width="3"/>
+                <line x1="82" y1="20.5" x2="98" y2="20.5" stroke="black" stroke-width="3"/>
+                <line x1="61.9393" y1="29.0814" x2="76.0815" y2="14.9393" stroke="black" stroke-width="3"/>
+                <path d="M124.5 16.5C124.5 17.8372 123.589 19.304 121.567 20.5171C119.575 21.7122 116.727 22.5 113.5 22.5C110.273 22.5 107.425 21.7122 105.433 20.5171C103.411 19.304 102.5 17.8372 102.5 16.5C102.5 15.1628 103.411 13.696 105.433 12.4829C107.425 11.2878 110.273 10.5 113.5 10.5C116.727 10.5 119.575 11.2878 121.567 12.4829C123.589 13.696 124.5 15.1628 124.5 16.5Z" fill="white" stroke="black" stroke-width="3"/>
+                <circle cx="138" cy="20" r="8.5" transform="rotate(-90 138 20)" fill="white" stroke="black" stroke-width="3"/>
+                <line x1="113.5" y1="10" x2="113.5" y2="30" stroke="black" stroke-width="3"/>
+                <rect x="77.5084" y="75.8611" width="50" height="45" transform="rotate(16.3229 77.5084 75.8611)" fill="white" stroke="black" stroke-width="3"/>
+                <rect x="113.5" y="52.5" width="71" height="104" fill="white" stroke="black" stroke-width="3"/>
+                <rect x="10.0592" y="76.0414" width="63.8192" height="45" transform="rotate(-21.2208 10.0592 76.0414)" fill="white" stroke="black" stroke-width="3"/>
+                <line x1="127" y1="69.5" x2="172" y2="69.5" stroke="black" stroke-width="3"/>
+                <line x1="127" y1="81.5" x2="172" y2="81.5" stroke="black" stroke-width="3"/>
+                </svg> 
+            </div>
+            <div class="enter__door">
+                <svg data-modal-btn="my_modal8" class="enter__door_item" width="298" height="424" viewBox="0 0 298 424" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="86.5" y="73.5" width="210" height="349" fill="white" stroke="black" stroke-width="3"/>
+                    <rect x="1.5" y="69.5" width="85" height="353" fill="white" stroke="black" stroke-width="3"/>
+                    <rect x="1.5" y="1.5" width="295" height="72" fill="white" stroke="black" stroke-width="3"/>
+                    <rect x="24.5" y="151.5" width="39" height="60" fill="white" stroke="black" stroke-width="3"/>
+                    <rect x="106.093" y="256.68" width="13" height="60" transform="rotate(-35.7007 106.093 256.68)" fill="white" stroke="black" stroke-width="3"/>
+                    <line x1="23.9937" y1="169" x2="63.0065" y2="169" stroke="black" stroke-width="3"/>
+                    <line x1="36.5" y1="213" x2="36.5" y2="168" stroke="black" stroke-width="3"/>
+                    <line x1="50" y1="213.006" x2="50" y2="167.995" stroke="black" stroke-width="3"/>
+                    <line x1="24" y1="182.5" x2="65" y2="182.5" stroke="black" stroke-width="3"/>
+                    <line x1="23" y1="196.5" x2="64" y2="196.5" stroke="black" stroke-width="3"/>
+                    <path d="M115 162V103.399L135.515 125.29L146.103 97L160 145.161" stroke="black" stroke-width="3"/>
+                    <path d="M170 146V112L189 137.087" stroke="black" stroke-width="3"/>
+                    <path d="M162 129L187 124" stroke="black" stroke-width="3"/>
+                    <path d="M194 108L197 136L223 131.667L220.333 108" stroke="black" stroke-width="3"/>
+                    <path d="M208 114L212 138" stroke="black" stroke-width="3"/>
+                    <path d="M231 133L236.089 105L250 130.268" stroke="black" stroke-width="3"/>
+                    <path d="M228 120H250" stroke="black" stroke-width="3"/>
+                    <path d="M172.62 192.164L176.53 150.588L196.233 183.966" stroke="black" stroke-width="3"/>
+                    <path d="M166.839 201.932L164.215 194.376L207.034 179.51L210.313 188.955" stroke="black" stroke-width="3"/>
+                    <path d="M199.054 156.527L218.963 164.079L218.015 147.121" stroke="black" stroke-width="3"/>
+                    <path d="M219.168 163.655L220.143 182.72" stroke="black" stroke-width="3"/>
+                    <path d="M227.499 147.004L237.665 176.284" stroke="black" stroke-width="3"/>
+                    <path d="M226.685 157.87C230.497 153.607 238.415 146.742 239.594 153.388C240.772 160.035 232.852 167.841 228.744 170.914" stroke="black" stroke-width="3"/>
+                    <path d="M252.795 163.975L243.066 135.954L272 157.307" stroke="black" stroke-width="3"/>
+                    <path d="M244.496 149.217L268.559 143.332" stroke="black" stroke-width="3"/>
+                    </svg>  
+                    <div data-modal-window="my_modal8" class="modal">
+                        <div class="modal_content">
+                            <div class="modal_inner">
+                                <p class="modal_title">ГРАФФИТИ</p>
+                                <div class="close_modal_window">&#x2717</div>
+                            </div>
+                            <p>похоже на то, что Машу здесь не любят..</p>
+                        </div>
+                    </div> 
+                </div>        
+        </div>
+        <div class="yard">
+            <svg data-modal-btn="my_modal12" class="yard__granny" width="387" height="476" viewBox="0 0 387 476" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="1.5" y="300.5" width="384" height="93" fill="white" stroke="black" stroke-width="3"/>
+                <rect x="17.5" y="393.5" width="34" height="81" fill="white" stroke="black" stroke-width="3"/>
+                <rect x="333.5" y="393.5" width="34" height="81" fill="white" stroke="black" stroke-width="3"/>
+                <mask id="path-4-inside-1_2217_78" fill="white">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M204 230.171C204 184.789 240.789 148 286.171 148C331.552 148 368.341 184.789 368.341 230.171V360H204V230.171Z"/>
+                </mask>
+                <path class="yard__granny_hover" fill-rule="evenodd" clip-rule="evenodd" d="M204 230.171C204 184.789 240.789 148 286.171 148C331.552 148 368.341 184.789 368.341 230.171V360H204V230.171Z" fill="white"/>
+                <path d="M368.341 360H371.341V363H368.341V360ZM204 360V363H201V360H204ZM286.171 151C242.446 151 207 186.446 207 230.171H201C201 183.132 239.132 145 286.171 145V151ZM365.341 230.171C365.341 186.446 329.895 151 286.171 151V145C333.209 145 371.341 183.132 371.341 230.171H365.341ZM365.341 360V230.171H371.341V360H365.341ZM204 357H368.341V363H204V357ZM207 230.171V360H201V230.171H207Z" fill="black" mask="url(#path-4-inside-1_2217_78)"/>
+                <g clip-path="url(#clip0_2217_78)">
+                <mask id="path-6-inside-2_2217_78" fill="white">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M180.341 225.171C180.341 179.789 143.552 143 98.1705 143C52.789 143 16 179.789 16 225.171V355H180.341V225.171Z"/>
+                </mask>
+                <path class="yard__granny_hover" fill-rule="evenodd" clip-rule="evenodd" d="M180.341 225.171C180.341 179.789 143.552 143 98.1705 143C52.789 143 16 179.789 16 225.171V355H180.341V225.171Z" fill="white"/>
+                <path d="M16 355H13V358H16V355ZM180.341 355V358H183.341V355H180.341ZM98.1705 146C141.895 146 177.341 181.446 177.341 225.171H183.341C183.341 178.132 145.209 140 98.1705 140V146ZM19 225.171C19 181.446 54.4459 146 98.1705 146V140C51.1322 140 13 178.132 13 225.171H19ZM19 355V225.171H13V355H19ZM180.341 352H16V358H180.341V352ZM177.341 225.171V355H183.341V225.171H177.341Z" fill="black" mask="url(#path-6-inside-2_2217_78)"/>
+                <mask id="path-8-inside-3_2217_78" fill="white">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M31 219C16.9167 219 5.5 230.417 5.5 244.5C-8.58326 244.5 -20 255.917 -20 270C-20 284.083 -8.58326 295.5 5.5 295.5C5.5 309.583 16.9167 321 31 321C45.0833 321 56.5 309.583 56.5 295.5C70.5833 295.5 82 284.083 82 270C82 255.917 70.5833 244.5 56.5 244.5C56.5 230.417 45.0833 219 31 219Z"/>
+                </mask>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M31 219C16.9167 219 5.5 230.417 5.5 244.5C-8.58326 244.5 -20 255.917 -20 270C-20 284.083 -8.58326 295.5 5.5 295.5C5.5 309.583 16.9167 321 31 321C45.0833 321 56.5 309.583 56.5 295.5C70.5833 295.5 82 284.083 82 270C82 255.917 70.5833 244.5 56.5 244.5C56.5 230.417 45.0833 219 31 219Z" fill="white"/>
+                <path d="M5.5 244.5V247.5H8.5V244.5H5.5ZM5.5 295.5H8.5V292.5H5.5V295.5ZM56.5 295.5V292.5H53.5V295.5H56.5ZM56.5 244.5H53.5V247.5H56.5V244.5ZM8.5 244.5C8.5 232.074 18.5736 222 31 222V216C15.2599 216 2.5 228.76 2.5 244.5H8.5ZM-17 270C-17 257.574 -6.92641 247.5 5.5 247.5V241.5C-10.2401 241.5 -23 254.26 -23 270H-17ZM5.5 292.5C-6.92641 292.5 -17 282.426 -17 270H-23C-23 285.74 -10.2401 298.5 5.5 298.5V292.5ZM31 318C18.5736 318 8.5 307.926 8.5 295.5H2.5C2.5 311.24 15.2599 324 31 324V318ZM53.5 295.5C53.5 307.926 43.4264 318 31 318V324C46.7401 324 59.5 311.24 59.5 295.5H53.5ZM79 270C79 282.426 68.9264 292.5 56.5 292.5V298.5C72.2401 298.5 85 285.74 85 270H79ZM56.5 247.5C68.9264 247.5 79 257.574 79 270H85C85 254.26 72.2401 241.5 56.5 241.5V247.5ZM31 222C43.4264 222 53.5 232.074 53.5 244.5H59.5C59.5 228.76 46.7401 216 31 216V222Z" fill="black" mask="url(#path-8-inside-3_2217_78)"/>
+                <mask id="path-10-inside-4_2217_78" fill="white">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M138 188C123.917 188 112.5 199.417 112.5 213.5C98.4167 213.5 87 224.917 87 239C87 253.083 98.4167 264.5 112.5 264.5C112.5 278.583 123.917 290 138 290C152.083 290 163.5 278.583 163.5 264.5C177.583 264.5 189 253.083 189 239C189 224.917 177.583 213.5 163.5 213.5C163.5 199.417 152.083 188 138 188Z"/>
+                </mask>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M138 188C123.917 188 112.5 199.417 112.5 213.5C98.4167 213.5 87 224.917 87 239C87 253.083 98.4167 264.5 112.5 264.5C112.5 278.583 123.917 290 138 290C152.083 290 163.5 278.583 163.5 264.5C177.583 264.5 189 253.083 189 239C189 224.917 177.583 213.5 163.5 213.5C163.5 199.417 152.083 188 138 188Z" fill="white"/>
+                <path d="M112.5 213.5V216.5H115.5V213.5H112.5ZM112.5 264.5H115.5V261.5H112.5V264.5ZM163.5 264.5V261.5H160.5V264.5H163.5ZM163.5 213.5H160.5V216.5H163.5V213.5ZM115.5 213.5C115.5 201.074 125.574 191 138 191V185C122.26 185 109.5 197.76 109.5 213.5H115.5ZM90 239C90 226.574 100.074 216.5 112.5 216.5V210.5C96.7599 210.5 84 223.26 84 239H90ZM112.5 261.5C100.074 261.5 90 251.426 90 239H84C84 254.74 96.7599 267.5 112.5 267.5V261.5ZM138 287C125.574 287 115.5 276.926 115.5 264.5H109.5C109.5 280.24 122.26 293 138 293V287ZM160.5 264.5C160.5 276.926 150.426 287 138 287V293C153.74 293 166.5 280.24 166.5 264.5H160.5ZM186 239C186 251.426 175.926 261.5 163.5 261.5V267.5C179.24 267.5 192 254.74 192 239H186ZM163.5 216.5C175.926 216.5 186 226.574 186 239H192C192 223.26 179.24 210.5 163.5 210.5V216.5ZM138 191C150.426 191 160.5 201.074 160.5 213.5H166.5C166.5 197.76 153.74 185 138 185V191Z" fill="black" mask="url(#path-10-inside-4_2217_78)"/>
+                <mask id="path-12-inside-5_2217_78" fill="white">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M110 297C95.9167 297 84.5 308.417 84.5 322.5C70.4167 322.5 59 333.917 59 348C59 362.083 70.4167 373.5 84.5 373.5C84.5 387.583 95.9167 399 110 399C124.083 399 135.5 387.583 135.5 373.5C149.583 373.5 161 362.083 161 348C161 333.917 149.583 322.5 135.5 322.5C135.5 308.417 124.083 297 110 297Z"/>
+                </mask>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M110 297C95.9167 297 84.5 308.417 84.5 322.5C70.4167 322.5 59 333.917 59 348C59 362.083 70.4167 373.5 84.5 373.5C84.5 387.583 95.9167 399 110 399C124.083 399 135.5 387.583 135.5 373.5C149.583 373.5 161 362.083 161 348C161 333.917 149.583 322.5 135.5 322.5C135.5 308.417 124.083 297 110 297Z" fill="white"/>
+                <path d="M84.5 322.5V325.5H87.5V322.5H84.5ZM84.5 373.5H87.5V370.5H84.5V373.5ZM135.5 373.5V370.5H132.5V373.5H135.5ZM135.5 322.5H132.5V325.5H135.5V322.5ZM87.5 322.5C87.5 310.074 97.5736 300 110 300V294C94.2599 294 81.5 306.76 81.5 322.5H87.5ZM62 348C62 335.574 72.0736 325.5 84.5 325.5V319.5C68.7599 319.5 56 332.26 56 348H62ZM84.5 370.5C72.0736 370.5 62 360.426 62 348H56C56 363.74 68.7599 376.5 84.5 376.5V370.5ZM110 396C97.5736 396 87.5 385.926 87.5 373.5H81.5C81.5 389.24 94.2599 402 110 402V396ZM132.5 373.5C132.5 385.926 122.426 396 110 396V402C125.74 402 138.5 389.24 138.5 373.5H132.5ZM158 348C158 360.426 147.926 370.5 135.5 370.5V376.5C151.24 376.5 164 363.74 164 348H158ZM135.5 325.5C147.926 325.5 158 335.574 158 348H164C164 332.26 151.24 319.5 135.5 319.5V325.5ZM110 300C122.426 300 132.5 310.074 132.5 322.5H138.5C138.5 306.76 125.74 294 110 294V300Z" fill="black" mask="url(#path-12-inside-5_2217_78)"/>
+                </g>
+                <mask id="path-14-inside-6_2217_78" fill="white">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M180.341 225.171C180.341 179.789 143.552 143 98.1705 143C52.789 143 16 179.789 16 225.171V355H180.341V225.171Z"/>
+                </mask>
+                <path d="M16 355H13V358H16V355ZM180.341 355V358H183.341V355H180.341ZM98.1705 146C141.895 146 177.341 181.446 177.341 225.171H183.341C183.341 178.132 145.209 140 98.1705 140V146ZM19 225.171C19 181.446 54.4459 146 98.1705 146V140C51.1322 140 13 178.132 13 225.171H19ZM19 355V225.171H13V355H19ZM180.341 352H16V358H180.341V352ZM177.341 225.171V355H183.341V225.171H177.341Z" fill="black" mask="url(#path-14-inside-6_2217_78)"/>
+                <circle cx="134" cy="102" r="44.5" fill="white" stroke="black" stroke-width="3"/>
+                <path d="M107.642 146.089L35.5824 57.3571L149.826 53.5699L107.642 146.089Z" fill="white" stroke="black" stroke-width="3"/>
+                <path d="M109.116 189.713L111.729 143.544L146.934 173.528L109.116 189.713Z" fill="white" stroke="black" stroke-width="3"/>
+                <path d="M66.8366 160.079L109.968 143.405L97.1865 187.846L66.8366 160.079Z" fill="white" stroke="black" stroke-width="3"/>
+                <circle cx="46" cy="46" r="44.5" transform="matrix(-1 0 0 1 331.203 56)" fill="white" stroke="black" stroke-width="3"/>
+                <mask id="path-21-inside-7_2217_78" fill="white">
+                <path d="M340.2 102C340.2 94.7773 338.777 87.6253 336.013 80.9524C333.249 74.2795 329.198 68.2163 324.091 63.1091C318.983 58.0019 312.92 53.9506 306.247 51.1866C299.574 48.4226 292.422 47 285.2 47C277.977 47 270.825 48.4226 264.152 51.1866C257.479 53.9506 251.416 58.0019 246.309 63.1091C241.202 68.2164 237.15 74.2795 234.386 80.9524C231.622 87.6253 230.2 94.7773 230.2 102L285.2 102H340.2Z"/>
+                </mask>
+                <path d="M340.2 102C340.2 94.7773 338.777 87.6253 336.013 80.9524C333.249 74.2795 329.198 68.2163 324.091 63.1091C318.983 58.0019 312.92 53.9506 306.247 51.1866C299.574 48.4226 292.422 47 285.2 47C277.977 47 270.825 48.4226 264.152 51.1866C257.479 53.9506 251.416 58.0019 246.309 63.1091C241.202 68.2164 237.15 74.2795 234.386 80.9524C231.622 87.6253 230.2 94.7773 230.2 102L285.2 102H340.2Z" fill="white" stroke="black" stroke-width="6" mask="url(#path-21-inside-7_2217_78)"/>
+                <path d="M255.5 242.5C255.5 254.13 246.29 263.5 235 263.5C223.71 263.5 214.5 254.13 214.5 242.5C214.5 230.87 223.71 221.5 235 221.5C246.29 221.5 255.5 230.87 255.5 242.5Z" stroke="black" stroke-width="3"/>
+                <mask id="path-23-inside-8_2217_78" fill="white">
+                <path d="M203.5 331C209.467 331 215.19 328.682 219.41 324.556C223.629 320.431 226 314.835 226 309C226 303.165 223.629 297.569 219.41 293.444C215.19 289.318 209.467 287 203.5 287L203.5 309V331Z"/>
+                </mask>
+                <path d="M203.5 331C209.467 331 215.19 328.682 219.41 324.556C223.629 320.431 226 314.835 226 309C226 303.165 223.629 297.569 219.41 293.444C215.19 289.318 209.467 287 203.5 287L203.5 309V331Z" stroke="black" stroke-width="6" mask="url(#path-23-inside-8_2217_78)"/>
+                <path d="M294.5 311.5C294.5 323.13 285.29 332.5 274 332.5C262.71 332.5 253.5 323.13 253.5 311.5C253.5 299.87 262.71 290.5 274 290.5C285.29 290.5 294.5 299.87 294.5 311.5Z" stroke="black" stroke-width="3"/>
+                <path d="M316.5 206.5C316.5 218.13 307.29 227.5 296 227.5C284.71 227.5 275.5 218.13 275.5 206.5C275.5 194.87 284.71 185.5 296 185.5C307.29 185.5 316.5 194.87 316.5 206.5Z" stroke="black" stroke-width="3"/>
+                <path d="M350.5 265.5C350.5 277.13 341.29 286.5 330 286.5C318.71 286.5 309.5 277.13 309.5 265.5C309.5 253.87 318.71 244.5 330 244.5C341.29 244.5 350.5 253.87 350.5 265.5Z" stroke="black" stroke-width="3"/>
+                <path d="M268.483 191.351L283.226 147.521L239.396 162.264L268.483 191.351Z" fill="white" stroke="black" stroke-width="3"/>
+                <path d="M330.425 161.896L286.596 147.154L301.338 190.983L330.425 161.896Z" fill="white" stroke="black" stroke-width="3"/>
+                <defs>
+                <clipPath id="clip0_2217_78">
+                <rect width="164.341" height="212" fill="white" transform="translate(16 143)"/>
+                </clipPath>
+                </defs>
+                </svg>
+                <div data-modal-window="my_modal12" class="modal">
+                    <div class="modal_content modal_content_game">
+                        <div class="modal_inner">
+                            <p class="modal_title">БАБУШКИ</p>
+                            <div class="close_modal_window">&#x2717</div>
+                        </div>
+                        <p>Кажется, мы поработали на славу - сборщик сплетен уже переполнен. Разговора с бабушками он точно не выдержит!</p>
+                        <p>Пора бежать!</p>
+                        <div class="game">
+                            <div id="employee"></div>
+                            <div id="babushka"></div>
+
+                        </div>
+                    </div>
+                </div>
+                <svg data-modal-btn="my_modal13" class="yard__trash" width="117" height="197" viewBox="0 0 117 197" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="1.5" y="1.5" width="114" height="139" fill="white" stroke="black" stroke-width="3"/>
+                    <rect x="3.5" y="178.5" width="111" height="17" fill="white" stroke="black" stroke-width="3"/>
+                    <rect x="50.5" y="195.5" width="173" height="17" transform="rotate(-90 50.5 195.5)" fill="white" stroke="black" stroke-width="3"/>
+                    </svg>
+                    <div data-modal-window="my_modal13" class="modal">
+                        <div class="modal_content">
+                            <div class="modal_inner">
+                                <p class="modal_title">МУСОРКА</p>
+                                <div class="close_modal_window">&#x2717</div>
+                            </div>
+                            <p>рыться в мусорке - это уже слишком..</p>
+                        </div>
+                    </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="footer__container">
+        <p class="footer__container_author">ВИКТОРИЯ ЯНИНА БП23ДЗ07</p>
+        <p class="footer__container_techer">ЯРОСЛАВ СУББОТИН</p>
+    </div>
+</footer>
+
+
+  <script src="script.js"></script>
+</body>

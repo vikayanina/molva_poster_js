@@ -1,0 +1,38 @@
+<svg width="345" height="281" viewBox="0 0 345 281" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="1.5" y="107.5" width="342" height="86" fill="white" stroke="black" stroke-width="3"/>
+<rect x="17.5" y="193.5" width="24" height="86" fill="white" stroke="black" stroke-width="3"/>
+<rect x="229.5" y="193.5" width="107" height="86" fill="white" stroke="black" stroke-width="3"/>
+<circle cx="282.5" cy="212.5" r="5" fill="white" stroke="black" stroke-width="3"/>
+<circle cx="282.5" cy="258.5" r="5" fill="white" stroke="black" stroke-width="3"/>
+<line x1="230" y1="235.5" x2="338.005" y2="235.5" stroke="black" stroke-width="3"/>
+<mask id="path-7-inside-1_2214_74" fill="white">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M146 85H106V115H93V135H158V115H146V85Z"/>
+</mask>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M146 85H106V115H93V135H158V115H146V85Z" fill="#F53D15"/>
+<path d="M106 85V82H103V85H106ZM146 85H149V82H146V85ZM106 115V118H109V115H106ZM93 115V112H90V115H93ZM93 135H90V138H93V135ZM158 135V138H161V135H158ZM158 115H161V112H158V115ZM146 115H143V118H146V115ZM106 88H146V82H106V88ZM109 115V85H103V115H109ZM93 118H106V112H93V118ZM96 135V115H90V135H96ZM158 132H93V138H158V132ZM155 115V135H161V115H155ZM146 118H158V112H146V118ZM143 85V115H149V85H143Z" fill="black" mask="url(#path-7-inside-1_2214_74)"/>
+<rect x="58.5" y="1.5" width="134" height="98" rx="25.5" fill="#F53D15" stroke="black" stroke-width="3"/>
+<rect x="68.5" y="9.5" width="113" height="82" rx="19.5" fill="#F53D15" stroke="black" stroke-width="3"/>
+<rect x="198.5" y="140.5" width="21" height="28" rx="10.5" fill="#F53D15" stroke="black" stroke-width="3"/>
+<path d="M157 120.087C169.051 118.426 194.737 117.429 201.076 126.735C207.415 136.041 209 146.122 209 150" stroke="black" stroke-width="3"/>
+<rect x="77.5" y="142.5" width="97" height="37" fill="#F53D15" stroke="black" stroke-width="3"/>
+<line x1="90.5" y1="143" x2="90.5" y2="178" stroke="black" stroke-width="3"/>
+<line x1="90.5" y1="143" x2="90.5" y2="178" stroke="black" stroke-width="3"/>
+<line x1="90.5" y1="143" x2="90.5" y2="178" stroke="black" stroke-width="3"/>
+<line x1="104.5" y1="143" x2="104.5" y2="178" stroke="black" stroke-width="3"/>
+<line x1="104.5" y1="143" x2="104.5" y2="178" stroke="black" stroke-width="3"/>
+<line x1="104.5" y1="143" x2="104.5" y2="178" stroke="black" stroke-width="3"/>
+<line x1="118.5" y1="143" x2="118.5" y2="178" stroke="black" stroke-width="3"/>
+<line x1="118.5" y1="143" x2="118.5" y2="178" stroke="black" stroke-width="3"/>
+<line x1="118.5" y1="143" x2="118.5" y2="178" stroke="black" stroke-width="3"/>
+<line x1="132.5" y1="143" x2="132.5" y2="178" stroke="black" stroke-width="3"/>
+<line x1="132.5" y1="143" x2="132.5" y2="178" stroke="black" stroke-width="3"/>
+<line x1="132.5" y1="143" x2="132.5" y2="178" stroke="black" stroke-width="3"/>
+<line x1="146.5" y1="143" x2="146.5" y2="178" stroke="black" stroke-width="3"/>
+<line x1="146.5" y1="143" x2="146.5" y2="178" stroke="black" stroke-width="3"/>
+<line x1="146.5" y1="143" x2="146.5" y2="178" stroke="black" stroke-width="3"/>
+<line x1="160.5" y1="143" x2="160.5" y2="178" stroke="black" stroke-width="3"/>
+<line x1="160.5" y1="143" x2="160.5" y2="178" stroke="black" stroke-width="3"/>
+<line x1="160.5" y1="143" x2="160.5" y2="178" stroke="black" stroke-width="3"/>
+<line x1="78" y1="155.5" x2="175" y2="155.5" stroke="black" stroke-width="3"/>
+<line x1="78" y1="168.5" x2="175" y2="168.5" stroke="black" stroke-width="3"/>
+</svg>
